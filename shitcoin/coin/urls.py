@@ -14,4 +14,9 @@ urlpatterns = [
      url(r'^transactions/get/$', views.txn_get),
      url(r'^nodeindex/$', views.nodeindex),
      url(r'^mine/$', views.mine),
+     url(r'^configure/$', views.configure),
+     url(r'^chain/$', views.full_chain),
+     url(r'^/nodes/register/$', views.register_nodes),
+     url(r'^/nodes/resolve/$', views.consensus),
+     url(r'^/nodes/get/$', views.get_nodes),
 ]
